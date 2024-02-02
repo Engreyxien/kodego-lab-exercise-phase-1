@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Web Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Web Page</h1>
+      <p>
+        Welcome,I am your digital destination for inspiration, knowledge, and
+        connection. Explore a world of curated content designed to ignite your
+        curiosity, spark creativity, and enhance your daily life. Whether you're
+        seeking informative articles, engaging stories, or helpful tips, we're
+        here to be your go-to source for all things.
+      </p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="./AboutMe.html">About Me</a></li>
+        <li><a href="#activities">Activities</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#contact">Contact Form</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="activities">
+        <h2>Activities</h2>
+        <p>List of my Activities for a week</p>
+        <table border="collapse">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+              <th>Saturday</th>
+              <th>Sunday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>5:00AM</td>
+              <td>Jogging</td>
+              <td></td>
+              <td>Jogging</td>
+              <td></td>
+              <td>Jogging</td>
+              <td></td>
+              <td>Jogging</td>
+            </tr>
+            <tr>
+              <td>7:00AM</td>
+              <td colspan="5">Breakfast</td>
+              <td>Sleeping</td>
+              <td>Preparing for Church</td>
+            </tr>
+            <tr>
+              <td>8:00AM</td>
+              <td colspan="5">Class Preparation</td>
+              <td>Breakfast</td>
+              <td>Church</td>
+            </tr>
+            <tr>
+              <td>9:00AM</td>
+              <td colspan="5">Start of Morning Class</td>
+              <td>Dog Walking</td>
+              <td>Church</td>
+            </tr>
+            <tr>
+              <td>12:00AM</td>
+              <td colspan="7">Lunch</td>
+            </tr>
+            <tr>
+              <td>1:00PM</td>
+              <td colspan="5">Start of afternoon classes</td>
+              <td>Motorcycle Rides</td>
+              <td>Playing Games</td>
+            </tr>
+            <tr>
+              <td>6:00PM</td>
+              <td colspan="5">End of Afternoon Class</td>
+              <td>Dinner</td>
+              <td>Watching Anime</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="media">
+        <h2>Media</h2>
+        <p>Here are some of my core memories</p>
+        <figure>
+          <img src="./ma50th.jpg" alt="Birthday" height="400" />
+          <figcaption>
+            <b
+              ><i
+                >My Mom's 50<sup>th</sup> birthday celebration with the whole
+                family</i
+              ></b
+            >
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="./champs.jpeg" alt="dance number" height="700" />
+          <figcaption>
+            <b
+              ><i
+                >Hailed as the winner for the Christmas Dancing Competetion</i
+              ></b
+            >
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="./kuaswed.jpg" alt="Wedding" height="400" />
+          <figcaption>
+            <b
+              ><i
+                >Wedding day of my 1<sup>st</sup> cousin and also, one of my
+                childhood friend</i
+              ></b
+            >
+          </figcaption>
+        </figure>
+        <figure>
+          <video
+            src="./sanctuary.mp4"
+            width="640"
+            height="360"
+            controls
+          ></video>
+          <figcaption>
+            <b><i>Mangrove Sanctuary at Libertad, Odiongan, Romblon</i></b>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Form</h2>
+        <p>Let us know if you have some questions</p>
+        <form action="#" method="post">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Name"
+          />
+          <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Email Address"
+          />
+          <br />
+
+          <label for="inquiryType">Inquiry Type:</label>
+          <select id="inquiry" name="inquiry">
+            <option value="" disabled selected>Select an option</option>
+            <option value="general">General Inquiry</option>
+            <option value="products">Products and Services</option>
+            <option value="careers">Careers</option>
+          </select>
+          <br />
+
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            cols="50"
+            required
+          ></textarea>
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 RexWeB. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
