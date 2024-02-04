@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.6;
+  background: url("./undefined_image.png") center/cover no-repeat fixed;
+}
+.background img {
+  display: block;
+  filter: brightness(40%);
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: chocolate;
+  font-size: x-large;
+}
